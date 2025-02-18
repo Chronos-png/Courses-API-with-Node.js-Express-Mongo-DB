@@ -58,7 +58,7 @@
 
 #### 3. Endpoint 3: DELETE Kursus
 
-\*\*URL: /api/kursus/:id
+**URL** : /api/kursus/:id
 
 **Method** : DELETE
 
