@@ -31,11 +31,9 @@ router.post("/", async (req, res) => {
 // DELETE: Menghapus kursus berdasarkan ID
 router.delete("/:id", async (req, res) => {
   try {
-    const kursus = await Kursus.findById(req.params.id);
+    const kursus = await Kursus.findByIdAndDelete(req.params.id);
     if (!kursus)
       return res.status(404).json({ message: "Kursus tidak ditemukan" });
-
-    await kursus.remove();
     res.status(200).json({ message: "Kursus berhasil dihapus" });
   } catch (err) {
     res.status(500).json({ message: err.message });
