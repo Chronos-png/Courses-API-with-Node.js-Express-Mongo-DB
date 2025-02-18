@@ -2,6 +2,20 @@
 
 ## Dokumentasi API:
 
+### Spesifikasi :
+
+- Runtime : Node.js
+- Framework : Express
+- Database : MongoDB
+
+### Fitur
+
+- GET: Mendapatkan semua data kursus
+- POST: Menambah kursus baru
+- DELETE: Menghapus kursus berdasarkan ID
+
+### Endpoint
+
 #### 1. Endpoint 1: GET Semua Kursus
 
 **URL** : `/api/kursus`
