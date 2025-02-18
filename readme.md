@@ -2,7 +2,7 @@
 
 ## Dokumentasi API:
 
-#### Endpoint 1: GET Semua Kursus
+#### 1. Endpoint 1: GET Semua Kursus
 
 **URL** : `/api/kursus`
 
@@ -23,7 +23,7 @@
 ]
 ```
 
-#### Endpoint 2: POST Kursus Baru
+#### 2. Endpoint 2: POST Kursus Baru
 
 **URL** : `/api/kursus`
 
@@ -56,7 +56,7 @@
 }
 ```
 
-#### Endpoint 3: DELETE Kursus
+#### 3. Endpoint 3: DELETE Kursus
 
 \*\*URL: /api/kursus/:id
 
