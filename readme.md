@@ -2,20 +2,29 @@
 
 ## Dokumentasi API:
 
-### Spesifikasi :
+### Instalasi Dependensi Yang Diperlukan :
+- Express
+- MongoDB
+- nodemon
+- dotenv
 
-- Runtime : Node.js
-- Framework : Express
-- Database : MongoDB
+**Code :**
+
+```
+npm install express mongoose nodemon dotenv
+```
+
+### Spesifikasi :
+- Runtime 		: Node.js
+- Framework 	: Express
+- Database		: MongoDB
 
 ### Fitur
-
-- GET: Mendapatkan semua data kursus
-- POST: Menambah kursus baru
-- DELETE: Menghapus kursus berdasarkan ID
+-	GET: Mendapatkan semua data kursus
+-	POST: Menambah kursus baru
+-	DELETE: Menghapus kursus berdasarkan ID
 
 ### Endpoint
-
 #### 1. Endpoint 1: GET Semua Kursus
 
 **URL** : `/api/kursus`
